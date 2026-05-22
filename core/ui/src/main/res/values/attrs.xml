@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ===== Custom theme attributes ===== -->
+
+    <!-- Colors -->
+    <attr name="colorCardBackground" format="color" />
+    <attr name="colorToolbarBackground" format="color" />
+    <attr name="colorSearchBackground" format="color" />
+    <attr name="colorChipBackground" format="color" />
+    <attr name="colorBottomNavBackground" format="color" />
+    <attr name="colorTextPrimary" format="color" />
+    <attr name="colorTextSecondary" format="color" />
+    <attr name="colorTextHint" format="color" />
+    <attr name="colorDivider" format="color" />
+    <attr name="colorShimmer" format="color" />
+    <attr name="colorAvatarPrimaryBackground" format="color" />
+    <attr name="colorAvatarSecondaryBackground" format="color" />
+    <attr name="colorAvatarText" format="color" />
+    <attr name="colorSuccess" format="color" />
+    <attr name="colorWarning" format="color" />
+
+</resources>

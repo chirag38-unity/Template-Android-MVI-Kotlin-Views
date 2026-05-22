@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ===================================================
+         Widget styles
+         Usage:  style="@style/Widget.App.Button.Primary"
+         =================================================== -->
+
+    <style name="Widget.App" parent="ThemeOverlay.MaterialComponents" />
+
+    <!-- ── Toolbar ── -->
+    <style name="Widget.App.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:background">?attr/colorToolbarBackground</item>
+        <item name="android:elevation">@dimen/elevation_toolbar</item>
+        <item name="titleTextAppearance">@style/TextAppearance.App.Title.Medium</item>
+        <item name="titleTextColor">?attr/colorOnPrimary</item>
+        <item name="navigationIconTint">?attr/colorOnPrimary</item>
+    </style>
+
+    <!-- ── Buttons ── -->
+    <style name="Widget.App.Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="android:textAppearance">@style/TextAppearance.App.Button</item>
+        <item name="cornerRadius">@dimen/corner_radius_md</item>
+        <item name="backgroundTint">?attr/colorPrimary</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="Widget.App.Button.Secondary" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textAppearance">@style/TextAppearance.App.Button</item>
+        <item name="cornerRadius">@dimen/corner_radius_md</item>
+        <item name="strokeColor">?attr/colorPrimary</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Widget.App.Button.Text" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textAppearance">@style/TextAppearance.App.Button</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <!-- ── CardView ── -->
+    <style name="Widget.App.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">@dimen/corner_radius_lg</item>
+        <item name="cardElevation">@dimen/elevation_card</item>
+        <item name="cardBackgroundColor">?attr/colorCardBackground</item>
+    </style>
+
+    <style name="Widget.App.CardView.Raised" parent="Widget.App.CardView">
+        <item name="cardElevation">@dimen/elevation_card_raised</item>
+    </style>
+
+    <!-- ── TextInputLayout (search) ── -->
+    <style name="Widget.App.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">@dimen/corner_radius_md</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/corner_radius_md</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/corner_radius_md</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/corner_radius_md</item>
+    </style>
+
+    <style name="Widget.App.SearchBar" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxBackgroundColor">?attr/colorSearchBackground</item>
+        <item name="boxCornerRadiusTopStart">@dimen/corner_radius_xl</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/corner_radius_xl</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/corner_radius_xl</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/corner_radius_xl</item>
+        <item name="hintTextColor">?attr/colorTextHint</item>
+    </style>
+
+    <!-- ── RecyclerView ── -->
+    <style name="Widget.App.RecyclerView" parent="@android:style/Widget">
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:padding">@dimen/spacing_sm</item>
+    </style>
+
+    <!-- ── ProgressBar ── -->
+    <style name="Widget.App.ProgressBar" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateTint">?attr/colorPrimary</item>
+    </style>
+
+    <!-- ── Chip ── -->
+    <style name="Widget.App.Chip" parent="Widget.MaterialComponents.Chip.Action">
+        <item name="android:textAppearance">@style/TextAppearance.App.Label</item>
+        <item name="chipBackgroundColor">?attr/colorChipBackground</item>
+        <item name="chipCornerRadius">@dimen/corner_radius_xxl</item>
+    </style>
+
+    <!-- ── Divider ── -->
+    <style name="Widget.App.Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/divider_height</item>
+        <item name="android:background">?attr/colorDivider</item>
+    </style>
+
+</resources>

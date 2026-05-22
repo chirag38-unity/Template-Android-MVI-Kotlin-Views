@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feed_title">Player Feed</string>
+    <string name="feed_error_message">Failed to load players. Please try again.</string>
+    <string name="feed_retry">Retry</string>
+</resources>

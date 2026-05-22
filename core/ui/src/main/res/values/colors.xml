@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ===== Brand palette (raw values – do not use directly in layouts) ===== -->
+    <color name="palette_purple_50">#FFF3E5FF</color>
+    <color name="palette_purple_100">#FFBB86FC</color>
+    <color name="palette_purple_500">#FF6200EE</color>
+    <color name="palette_purple_700">#FF3700B3</color>
+    <color name="palette_teal_200">#FF03DAC6</color>
+    <color name="palette_teal_700">#FF018786</color>
+    <color name="palette_black">#FF000000</color>
+    <color name="palette_white">#FFFFFFFF</color>
+
+    <!-- ===== Semantic colors – light (use these everywhere) ===== -->
+
+    <!-- Primary -->
+    <color name="color_primary">@color/palette_purple_500</color>
+    <color name="color_on_primary">@color/palette_white</color>
+    <color name="color_primary_container">@color/palette_purple_100</color>
+    <color name="color_on_primary_container">#FF21005D</color>
+    <color name="color_primary_variant">@color/palette_purple_700</color>
+
+    <!-- Secondary -->
+    <color name="color_secondary">@color/palette_teal_200</color>
+    <color name="color_on_secondary">@color/palette_black</color>
+    <color name="color_secondary_container">#FFB2EBF2</color>
+    <color name="color_on_secondary_container">#FF003731</color>
+    <color name="color_secondary_variant">@color/palette_teal_700</color>
+
+    <!-- Background & Surface -->
+    <color name="color_background">#FFFAFAFA</color>
+    <color name="color_on_background">#FF1C1B1F</color>
+    <color name="color_surface">@color/palette_white</color>
+    <color name="color_on_surface">#FF1C1B1F</color>
+    <color name="color_surface_variant">#FFE7E0EC</color>
+    <color name="color_on_surface_variant">#FF49454F</color>
+
+    <!-- Error -->
+    <color name="color_error">#FFB00020</color>
+    <color name="color_on_error">@color/palette_white</color>
+
+    <!-- Text -->
+    <color name="color_text_primary">#FF1C1B1F</color>
+    <color name="color_text_secondary">#FF625B71</color>
+    <color name="color_text_hint">#FF938F99</color>
+    <color name="color_text_on_primary">@color/palette_white</color>
+
+    <!-- UI chrome -->
+    <color name="color_divider">#1A000000</color>
+    <color name="color_toolbar_background">@color/palette_purple_500</color>
+    <color name="color_card_background">@color/palette_white</color>
+    <color name="color_search_background">#FFF0EBF8</color>
+    <color name="color_chip_background">#FFE7E0EC</color>
+    <color name="color_bottom_nav_background">@color/palette_white</color>
+
+    <!-- States -->
+    <color name="color_shimmer">#FFE0E0E0</color>
+    <color name="color_skeleton">#FFDADADA</color>
+    <color name="color_ripple">#1F6200EE</color>
+
+    <!-- Status -->
+    <color name="color_success">#FF388E3C</color>
+    <color name="color_warning">#FFF57C00</color>
+
+    <!-- Avatar -->
+    <color name="color_avatar_primary_bg">@color/palette_purple_500</color>
+    <color name="color_avatar_secondary_bg">@color/palette_teal_200</color>
+    <color name="color_avatar_text">@color/palette_white</color>
+
+</resources>

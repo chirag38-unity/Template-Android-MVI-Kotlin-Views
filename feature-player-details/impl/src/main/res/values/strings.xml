@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="player_details_back">Back</string>
+    <string name="player_details_team">Club</string>
+    <string name="player_details_nationality">Nationality</string>
+    <string name="player_details_goals">Goals</string>
+    <string name="player_details_assists">Assists</string>
+    <string name="player_details_rating">Rating</string>
+    <string name="player_details_about">About</string>
+</resources>

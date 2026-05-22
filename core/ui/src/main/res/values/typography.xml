@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ===================================================
+         TextAppearance styles
+         Use these in layouts via:  style="@style/TextAppearance.App.Body"
+         =================================================== -->
+
+    <!-- Display – large hero text -->
+    <style name="TextAppearance.App.Display" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="android:textSize">@dimen/text_size_display</item>
+        <item name="android:textColor">?attr/colorTextPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Headline – section headers -->
+    <style name="TextAppearance.App.Headline" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textSize">@dimen/text_size_headline</item>
+        <item name="android:textColor">?attr/colorTextPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Title – card/screen titles (maps to Headline5 ~ 24sp) -->
+    <style name="TextAppearance.App.Title" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textSize">@dimen/text_size_title_lg</item>
+        <item name="android:textColor">?attr/colorTextPrimary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Title Medium – toolbar / dialog titles (maps to Headline6 ~ 20sp) -->
+    <style name="TextAppearance.App.Title.Medium" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textSize">@dimen/text_size_title_md</item>
+        <item name="android:textColor">?attr/colorTextPrimary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Subtitle – row/item primary label -->
+    <style name="TextAppearance.App.Subtitle" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textSize">@dimen/text_size_title_sm</item>
+        <item name="android:textColor">?attr/colorTextPrimary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Subtitle Secondary – smaller subtitle -->
+    <style name="TextAppearance.App.Subtitle.Secondary" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textSize">@dimen/text_size_body_md</item>
+        <item name="android:textColor">?attr/colorTextSecondary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Body – primary readable text (16sp) -->
+    <style name="TextAppearance.App.Body" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">@dimen/text_size_body_lg</item>
+        <item name="android:textColor">?attr/colorTextPrimary</item>
+    </style>
+
+    <!-- Body Small – secondary readable text (14sp) -->
+    <style name="TextAppearance.App.Body.Small" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textSize">@dimen/text_size_body_md</item>
+        <item name="android:textColor">?attr/colorTextSecondary</item>
+    </style>
+
+    <!-- Caption – metadata / timestamps (12sp) -->
+    <style name="TextAppearance.App.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">@dimen/text_size_caption</item>
+        <item name="android:textColor">?attr/colorTextSecondary</item>
+    </style>
+
+    <!-- Label – pill / chip / tab labels -->
+    <style name="TextAppearance.App.Label" parent="TextAppearance.MaterialComponents.Overline">
+        <item name="android:textSize">@dimen/text_size_label</item>
+        <item name="android:textColor">?attr/colorTextSecondary</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- Button label -->
+    <style name="TextAppearance.App.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textSize">@dimen/text_size_body_md</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+</resources>

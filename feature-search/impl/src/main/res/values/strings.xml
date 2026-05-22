@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_title">Search Players</string>
+    <string name="search_hint">Search by name, nationality, or club…</string>
+    <string name="search_empty">No players found</string>
+</resources>

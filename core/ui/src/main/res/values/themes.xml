@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        Theme.MyApp  –  the single app-wide theme.
+        Defined here in core:ui so all modules can reference shared tokens.
+        Applied in app/AndroidManifest.xml via android:theme="@style/Theme.MyApp".
+    -->
+    <style name="Theme.MyApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- ── Primary brand colour ── -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryVariant">@color/color_primary_variant</item>
+        <item name="colorOnPrimary">@color/color_on_primary</item>
+
+        <!-- ── Secondary brand colour ── -->
+        <item name="colorSecondary">@color/color_secondary</item>
+        <item name="colorSecondaryVariant">@color/color_secondary_variant</item>
+        <item name="colorOnSecondary">@color/color_on_secondary</item>
+
+        <!-- ── Background & surface ── -->
+        <item name="android:colorBackground">@color/color_background</item>
+        <item name="colorSurface">@color/color_surface</item>
+        <item name="colorOnSurface">@color/color_on_surface</item>
+        <item name="colorSurfaceVariant">@color/color_surface_variant</item>
+
+        <!-- ── Error ── -->
+        <item name="colorError">@color/color_error</item>
+        <item name="colorOnError">@color/color_on_error</item>
+
+        <!-- ── System bars ── -->
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/color_background</item>
+
+        <!-- ── Material text appearances ── -->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.App.Display</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.App.Headline</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.App.Title</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.App.Title.Medium</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.App.Subtitle</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.App.Subtitle.Secondary</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.App.Body</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.App.Body.Small</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.App.Caption</item>
+        <item name="textAppearanceButton">@style/TextAppearance.App.Button</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.App.Label</item>
+
+        <!-- ── Custom colour attrs (defined in attrs.xml) ── -->
+        <item name="colorCardBackground">@color/color_card_background</item>
+        <item name="colorToolbarBackground">@color/color_toolbar_background</item>
+        <item name="colorSearchBackground">@color/color_search_background</item>
+        <item name="colorChipBackground">@color/color_chip_background</item>
+        <item name="colorBottomNavBackground">@color/color_bottom_nav_background</item>
+        <item name="colorTextPrimary">@color/color_text_primary</item>
+        <item name="colorTextSecondary">@color/color_text_secondary</item>
+        <item name="colorTextHint">@color/color_text_hint</item>
+        <item name="colorDivider">@color/color_divider</item>
+        <item name="colorShimmer">@color/color_shimmer</item>
+        <item name="colorAvatarPrimaryBackground">@color/color_avatar_primary_bg</item>
+        <item name="colorAvatarSecondaryBackground">@color/color_avatar_secondary_bg</item>
+        <item name="colorAvatarText">@color/color_avatar_text</item>
+        <item name="colorSuccess">@color/color_success</item>
+        <item name="colorWarning">@color/color_warning</item>
+
+        <!-- ── Material widget overrides ── -->
+        <item name="toolbarStyle">@style/Widget.App.Toolbar</item>
+        <item name="materialButtonStyle">@style/Widget.App.Button.Primary</item>
+        <item name="chipStyle">@style/Widget.App.Chip</item>
+
+    </style>
+
+    <!-- Convenience alias: same as Theme.MyApp (already NoActionBar) -->
+    <style name="Theme.MyApp.NoActionBar" parent="Theme.MyApp" />
+
+</resources>

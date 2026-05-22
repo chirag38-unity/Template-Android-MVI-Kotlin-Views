@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    App-level colours have been moved to core/ui/res/values/colors.xml.
+    Add any app-specific overrides here if needed.
+-->
+<resources />
+
